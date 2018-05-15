@@ -1,0 +1,360 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 191,
+      "max": [
+        0.24333000183105469,
+        0.25885000824928284,
+        0.28727000951766968
+      ],
+      "min": [
+        -0.20061999559402466,
+        -0.2275799959897995,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2292,
+      "componentType": 5126,
+      "count": 191,
+      "max": [
+        0.98914551734924316,
+        0.98614096641540527,
+        0.99857759475708008
+      ],
+      "min": [
+        -0.99162495136260986,
+        -0.96750801801681519,
+        -0.080839961767196655
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 191,
+      "max": [
+        0.98591601848602295,
+        0.98852056264877319,
+        0.99945837259292603,
+        1
+      ],
+      "min": [
+        -0.98838269710540771,
+        -0.98914557695388794,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 191,
+      "max": [
+        0.050050001591444016,
+        0.85277998447418213
+      ],
+      "min": [
+        0.012450000271201134,
+        0.81519001722335815
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 255,
+      "max": [
+        190
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4584,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.14351999759674072,
+        0.13976000249385834,
+        0.27406001091003418
+      ],
+      "min": [
+        -0.13624000549316406,
+        -0.14086000621318817,
+        0.26006001234054565
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4944,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.10690999776124954,
+        0.10610993951559067,
+        0.99991703033447266
+      ],
+      "min": [
+        -0.057990096509456635,
+        -0.047300122678279877,
+        0.99342942237854004
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 3056,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.98436200618743896,
+        0.98909354209899902,
+        0.11391888558864594,
+        1
+      ],
+      "min": [
+        -0.9855877161026001,
+        -0.98794341087341309,
+        -0.11391216516494751,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1528,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.11646000295877457,
+        0.85474002361297607
+      ],
+      "min": [
+        0.078859999775886536,
+        0.81713998317718506
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1020,
+      "componentType": 5125,
+      "count": 30,
+      "max": [
+        29
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "David (https://sketchfab.com/david11)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/03120855639d444a8f3ab3e94dbb8ff5",
+      "title": "Tree Stump 2"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1140,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1768,
+      "byteOffset": 1140,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5304,
+      "byteOffset": 2908,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3536,
+      "byteOffset": 8212,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 11748,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/tree_wood_baseColor.png"
+    },
+    {
+      "uri": "textures/tree_bark_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "name": "tree_bark",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": false,
+      "name": "tree_wood",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Stump.02_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Stump.02_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": "Stump.02"
+    },
+    {
+      "mesh": 0,
+      "name": "Stump.02_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Stump.02_1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
