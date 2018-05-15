@@ -1,0 +1,292 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 32333,
+      "max": [
+        10.402711868286133,
+        8.8683357238769531,
+        27.79937744140625
+      ],
+      "min": [
+        -9.5568037033081055,
+        -11.000120162963867,
+        -27.503862380981445
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 387996,
+      "componentType": 5126,
+      "count": 32333,
+      "max": [
+        0.999642014503479,
+        0.99999582767486572,
+        0.99944227933883667
+      ],
+      "min": [
+        -0.99999755620956421,
+        -0.99999994039535522,
+        -0.9998505711555481
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 32333,
+      "max": [
+        0.9999958872795105,
+        0.9999997615814209,
+        0.99998795986175537,
+        1
+      ],
+      "min": [
+        -0.99991464614868164,
+        -0.99999916553497314,
+        -0.99998342990875244,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 32333,
+      "max": [
+        0.99870407581329346,
+        0.99925535917282104
+      ],
+      "min": [
+        0.00074431230314075947,
+        0.00081531464820727706
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 170259,
+      "max": [
+        32332
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/58dc20d9d5284d35a52fc3fbdb89e6ce",
+      "title": "Crocodile toy on sandbox"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 681036,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 258664,
+      "byteOffset": 681036,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 775992,
+      "byteOffset": 939700,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 517328,
+      "byteOffset": 1715692,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2233020,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/prulezka_spilas_normal.jpeg"
+    },
+    {
+      "uri": "textures/prulezka_spilas_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "prulezka_spilas",
+      "normalTexture": {
+        "index": 0,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.80049542679999997
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "prulezka_spilas_prulezka_spilas_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "prulezka_spilas.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -0.22709372799292527,
+        2.7810960320723014e-17,
+        -0.9738729068550348,
+        0,
+        4.2569337286453725e-08,
+        -0.99999999999999911,
+        -9.9265822699583298e-09,
+        0,
+        -0.97387290685503392,
+        -4.3711388819964413e-08,
+        0.22709372799292504,
+        0,
+        -0.031337261199951172,
+        -1.3218998908996582,
+        1.0001449584960938,
+        1
+      ],
+      "name": "prulezka_spilas"
+    },
+    {
+      "mesh": 0,
+      "name": "prulezka_spilas_prulezka_spilas_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
